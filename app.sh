@@ -31,8 +31,7 @@ if [ ! -f "model.json" ]; then
 fi
 
 if [ ! -f "__main__.py" ]; then
-    echo -e "${RED}Error: nlm.py not found in the current directory.${NC}"
-    exit 1
+    echo -e "${RED}Error: __main__.py not found in the current directory.${NC}"
 fi
 
 # 4. Help menu
